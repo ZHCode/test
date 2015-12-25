@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="40" height="50" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="test" tilewidth="32" tileheight="32">
+  <image source="test.png" width="64" height="64"/>
+ </tileset>
+ <layer name="bg1" width="40" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztzrENAAAIA6BG///ZN9QwsFNJCgAAHuoFBwAAAADgjgGFIA+i
+  </data>
+ </layer>
+ <layer name="bg2" width="40" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt0skOgCAMRVES//+f3arBWDpIofcl7DocAq3dc3TOM72at1ppn3QWPnz48OHDt7JvZMZOvpF38bqjdpe1J9p37c/s87LN9Emzok/7171tX7u9fZpIZmb2zbT95bOkus+azLZoo2ey+yKM1Xzexqjgy2Gs7PMwVvdZjfhsRnz48OHDt4/vBIepDC4=
+  </data>
+ </layer>
+ <layer name="bg3" width="40" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt17EJACEUBNGP/RdtcLkgnjqL8wqQQdzAKkkj7XZAfQ2EDr2F/uZ2962e/3pfAvod0PskAvpO6H3SSYl7SGzWvIT/Nr1POoW+hcQ+UnNiHw290T5JO/294Q6InQA7
+  </data>
+ </layer>
+ <objectgroup name="edges">
+  <object type="1000" x="864" y="832" width="416" height="2368"/>
+  <object type="1000" x="864" y="832">
+   <polygon points="0,0 384,-480 384,0"/>
+  </object>
+  <object type="1000" x="1248" y="-2048" width="32" height="2880"/>
+  <object type="1000" x="0" y="-1376" width="128" height="2656"/>
+  <object type="1000" x="128" y="832">
+   <polygon points="0,0 288,448 0,448"/>
+  </object>
+  <object type="1000" x="0" y="1280" width="416" height="1920"/>
+  <object type="1000" x="832" y="512">
+   <polygon points="0,0 -192,-96 0,-96"/>
+  </object>
+  <object type="1000" x="416" y="704">
+   <polygon points="0,0 -128,-96 0,-96"/>
+  </object>
+  <object type="1000" x="640" y="-32" width="224" height="448"/>
+  <object type="1000" x="288" y="0" width="128" height="608"/>
+ </objectgroup>
+ <objectgroup name="items">
+  <object type="1100" gid="1" x="480" y="1536"/>
+  <object type="1100" gid="1" x="640" y="1248"/>
+  <object type="1100" gid="1" x="576" y="1184"/>
+  <object type="1100" gid="1" x="512" y="1120"/>
+  <object type="1100" gid="1" x="512" y="1024"/>
+  <object type="1100" gid="1" x="320" y="1088"/>
+  <object type="1100" gid="1" x="608" y="608"/>
+  <object type="1100" gid="1" x="544" y="608"/>
+  <object type="1100" gid="1" x="992" y="320"/>
+  <object type="1100" gid="1" x="1056" y="32"/>
+  <object type="1100" gid="1" x="928" y="32"/>
+ </objectgroup>
+</map>
